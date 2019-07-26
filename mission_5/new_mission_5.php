@@ -10,9 +10,9 @@
 <?php
 
 	//データベース
-	$dsn = 'mysql:dbname=tb210063db;host=localhost';
-	$d_user = 'tb-210063';
-	$password = 'yfgL7tXREY';
+	$dsn = 'mysql:dbname=***;host=localhost';
+	$d_user = '***';
+	$password = '***';
 	$pdo = new PDO($dsn, $d_user, $password, array(PDO::ATTR_ERRMODE => PDO::ERRMODE_WARNING));
 
 	//テーブル作成
