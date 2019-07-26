@@ -1,0 +1,45 @@
+@charset "utf-8";
+
+body{
+     margin:0px;          /* ページ全体のmargin */
+     padding:0px;         /* ページ全体のpadding */
+     text-align:center;   /* 下記のautoに未対応用のセンタリング */
+     zoom:80%;
+    }
+
+h1{
+	margin-bottom: 1.5em;
+	font-size: 3em;
+	font-family: "Hiragino Sans","ヒラギノ角ゴシック"; font-weight: 400;
+}
+
+hr{
+	width: 50%;
+	color: #EEEEEE;
+}
+
+.log_box{
+	padding: 0.7em 5em; /* 大きさ */
+    font-size: 1.2em; /* 文字サイズ */
+    border: 1px solid #778899; /* 枠線 */
+    border-radius: 0.2em; /* 角 */
+    margin-bottom: 2.5em;
+}
+
+#login{
+	padding: 15px 7em; /* 大きさ */
+    font-size: 1.2em; /* 文字サイズ */
+    background-color: #00bfff; /* 背景色 */
+    border: 1px solid #4682b4; /* 枠線 */
+    color: white;
+    border-radius: 0.2em; /* 角 */
+}
+
+#sign_up{
+	padding: 15px 7em; /* 大きさ */
+    font-size: 1.2em; /* 文字サイズ */
+    background-color: white; /* 背景色 */
+    border: 1px solid #00bfff; /* 枠線 */
+    border-radius: 0.2em; /* 角 */
+    margin-top: -0.5em;
+}
