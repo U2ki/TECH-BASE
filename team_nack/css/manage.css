@@ -1,0 +1,89 @@
+@charset "utf-8";
+
+.cp_qq *, .cp_qq *:after, .cp_qq *:before {
+  font-family: sans-serif;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.cp_qq {
+  margin: 0 0 2em 10px;
+  padding: 1em 1em 0.5em 1em;
+  background: #FFEBCD;
+  font-size: 0.9em;
+}
+
+
+/*上選択タブ*/
+
+.cp_qa *, .cp_qa *:before, .cp_qa *:after {
+font-family: 'FontAwesome', sans-serif;
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+}
+.cp_qa {
+margin: 0 auto;
+background: #ffffff;
+margin-top: -1em;
+}
+.tab input {
+display: none;
+}
+
+/* カテゴリー */
+.cp_qa #cp_content1,
+.cp_qa #cp_content2,
+.cp_qa #cp_content3{
+display: none;
+padding: 20px 0 0;
+border-top: 1px solid #dddddd;
+}
+.cp_qa label.cp_tabitem {
+display: inline-block;
+margin: 0 0 -1px;
+padding: 15px 25px;
+text-align: center;
+color: #bbbbbb;
+border: 1px solid transparent;
+}
+.cp_qa label.cp_tabitem:before {
+margin-right: 10px;
+}
+.tab input:checked + label {
+color: #555555;
+border: 1px solid #dddddd;
+border-bottom: 1px solid #ffffff;
+}
+
+@media screen and (max-width: 250px) {
+.cp_qa label.cp_tabitem {
+font-size: 0;
+}
+label:before {
+font-size: 18px;
+margin: 0;
+}
+}
+@media screen and (max-width: 400px) {
+.cp_qa label.cp_tabitem {
+padding: 15px;
+}
+.cp_qa label.cp_tabitem:before {
+margin-right: 0px;
+}
+}
+/* QAブロック */
+.cp_qa #cp_conttab1:checked ~ #cp_content1,
+.cp_qa #cp_conttab2:checked ~ #cp_content2,
+.cp_qa #cp_conttab3:checked ~ #cp_content3,
+.cp_qa #cp_conttab4:checked ~ #cp_content4 {
+display: block;
+}
+.cp_qa .cp_qain {
+overflow-x: hidden;
+margin: 0 auto;
+color: #333333;
+}
+.cp_qa .cp_qain .cp_actab {
+padding: 20px 0;
+border-bottom: 1px dotted #cccccc;
+} 
